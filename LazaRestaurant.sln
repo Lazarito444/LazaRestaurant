@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazaRestaurant.Presentation.WebApi", "LazaRestaurant.Presentation.WebApi\LazaRestaurant.Presentation.WebApi.csproj", "{4401A1D4-2C5F-496D-B2F8-CAA33B63B6AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CAE0B89B-6435-4D9F-B31E-BAE0080BB027}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7997F28D-7B79-4283-9BD4-0B38DB54D0BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{342CF06F-FEBB-471A-A7AE-923EBD0964C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazaRestaurant.Core.Domain", "LazaRestaurant.Core.Domain\LazaRestaurant.Core.Domain.csproj", "{4A1C0972-44DA-45E4-B891-5088FFA06EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazaRestaurant.Core.Application", "LazaRestaurant.Core.Application\LazaRestaurant.Core.Application.csproj", "{4A296F2A-ECA0-44AD-9D46-613AF5E1B5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazaRestaurant.Infrastructure.Persistence", "LazaRestaurant.Infrastructure.Persistence\LazaRestaurant.Infrastructure.Persistence.csproj", "{2AA24F52-48BE-4494-966E-04F8901CD268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazaRestaurant.Infrastructure.Identity", "LazaRestaurant.Infrastructure.Identity\LazaRestaurant.Infrastructure.Identity.csproj", "{69DACDF7-4E46-4FE5-AFF6-8B8515351768}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4401A1D4-2C5F-496D-B2F8-CAA33B63B6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4401A1D4-2C5F-496D-B2F8-CAA33B63B6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4401A1D4-2C5F-496D-B2F8-CAA33B63B6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4401A1D4-2C5F-496D-B2F8-CAA33B63B6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1C0972-44DA-45E4-B891-5088FFA06EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1C0972-44DA-45E4-B891-5088FFA06EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1C0972-44DA-45E4-B891-5088FFA06EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1C0972-44DA-45E4-B891-5088FFA06EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A296F2A-ECA0-44AD-9D46-613AF5E1B5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A296F2A-ECA0-44AD-9D46-613AF5E1B5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A296F2A-ECA0-44AD-9D46-613AF5E1B5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A296F2A-ECA0-44AD-9D46-613AF5E1B5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA24F52-48BE-4494-966E-04F8901CD268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA24F52-48BE-4494-966E-04F8901CD268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA24F52-48BE-4494-966E-04F8901CD268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA24F52-48BE-4494-966E-04F8901CD268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DACDF7-4E46-4FE5-AFF6-8B8515351768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DACDF7-4E46-4FE5-AFF6-8B8515351768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DACDF7-4E46-4FE5-AFF6-8B8515351768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DACDF7-4E46-4FE5-AFF6-8B8515351768}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4401A1D4-2C5F-496D-B2F8-CAA33B63B6AD} = {342CF06F-FEBB-471A-A7AE-923EBD0964C7}
+		{4A1C0972-44DA-45E4-B891-5088FFA06EB8} = {CAE0B89B-6435-4D9F-B31E-BAE0080BB027}
+		{4A296F2A-ECA0-44AD-9D46-613AF5E1B5B2} = {CAE0B89B-6435-4D9F-B31E-BAE0080BB027}
+		{2AA24F52-48BE-4494-966E-04F8901CD268} = {7997F28D-7B79-4283-9BD4-0B38DB54D0BA}
+		{69DACDF7-4E46-4FE5-AFF6-8B8515351768} = {7997F28D-7B79-4283-9BD4-0B38DB54D0BA}
+	EndGlobalSection
+EndGlobal
